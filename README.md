@@ -16,7 +16,7 @@ Register yourself at <https://www.themoviedb.org/> and copy the API key. In the 
 your API key like this `api_key=Your API key`
 
 2. Clone the repository:
-Open the terminal or cmd and enter this git command <https://github.com/Abdullah9202/Favourite-Movies-Collection>
+Open the terminal or cmd and enter this git command <https://github.com/Faiq-Ali-372/Favourite-Movies-Collection>
 
 3. Install the required dependencies:
 When in root directory of project, Open terminal or cmd and enter this command `pip install -r requirements.txt` to install all dependencies
