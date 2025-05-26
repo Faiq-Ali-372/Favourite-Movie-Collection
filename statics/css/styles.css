@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1f1f1f;
+    color: #e0e0e0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.main-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 1.5rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.movie-card {
+    background: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.movie-id {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+}
+
+.card-content {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+}
+
+.movie-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+}
+
+.year {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #f1c40f;
+    margin: 0.3rem 0;
+}
+
+.review {
+    font-style: italic;
+    font-size: 0.78rem;
+    color: #ccc;
+    margin-bottom: 0.3rem;
+}
+
+.description {
+    font-size: 0.75rem;
+    color: #aaa;
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
+
+.card-buttons-fixed {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: background 0.2s;
+    text-align: center;
+}
+
+.btn.update {
+    background: #3498db;
+    color: white;
+}
+
+.btn.update:hover {
+    background: #2980b9;
+}
+
+.btn.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn.delete:hover {
+    background: #c0392b;
+}
+
+.btn.add-movie {
+    background: #27ae60;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.btn.add-movie:hover {
+    background: #1e8449;
+}
+
+.add-btn-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
