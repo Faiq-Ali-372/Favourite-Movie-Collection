@@ -42,7 +42,3 @@ When in root directory of project, Open terminal or cmd and enter this command `
 
 - Built with Flask, SQLAlchemy, and Bootstrap.
 - Movie data is retrieved from The Movie Database (TMDb) API.
-
-## Developer
-
-This project is developed by Abdullah Khurram <https://github.com/Abdullah9202>
